@@ -251,10 +251,37 @@ body {
     color: darkslategray;
     letter-spacing: 2px;
     margin-bottom: 10px;
+    border: 2px solid darkslategray;
+    padding: 5px 10px 5px 10px;
 }
 
 p {
     color: black;
-    font-size: 15pxpx;
+    font-size: 15px;
     font-family: "Chakra Petch", sans-serif;
+}
+
+.about .box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+.about .box .année{
+    min-width: 150px;
+    min-height: 100px;
+}
+
+.about .box .année h5{
+    text-transform: uppercase;
+    color: dimgrey;
+    font-weight: 600;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+.about .box .text h4{
+   text-transform: uppercase;
+   font-size: 16px;
+   color: dodgerblue;
+   font-family: "Kode Mono", monospace;
 }
