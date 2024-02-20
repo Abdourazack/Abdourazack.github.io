@@ -28,6 +28,10 @@ body {
     box-shadow: 0 35px 35px rgba(0, 0, 0, 0.1);
 }
 
+/***************************/
+/*Coordonnée et compétence*/
+/**************************/
+
 .conteneur .coordonnes {
     position: relative;
     background-color: sienna;
@@ -238,9 +242,9 @@ body {
     background-color: aliceblue;
     padding: 40px;
 }
-
+/********************/
 /*parcour et profil*/
-
+/*******************/
 .conteneur .parcour {
     position: relative;
     background-color: aliceblue;
